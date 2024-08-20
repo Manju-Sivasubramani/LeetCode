@@ -7,10 +7,10 @@ class Solution {
             if(i==n){
                 return true;
             }
-            if(t.charAt(j)==s.charAt(i)){
+            if(s.charAt(i)==t.charAt(j)){
                 i++;
             }
-        }
-        return i==n;
+        }  
+        return i==n;     
     }
 }
