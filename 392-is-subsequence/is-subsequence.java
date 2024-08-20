@@ -3,7 +3,7 @@ class Solution {
         int n=s.length();
         int m=t.length();
         int i=0;
-        for(int j=0;j<m;j++){
+        for(int j=i;j<m;j++){
             if(i==n){
                 return true;
             }
